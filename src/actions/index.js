@@ -5,7 +5,7 @@ export const OPEN_MODAL = 'OPEN_MODAL';
 export const CLOSE_MODAL = 'CLOSE_MODAL';
 export const REQUEST_TENDING_GIFS = "REQUEST_TENDING_GIFS"
 
-const API_URL = 'http://api.giphy.com/v1/gifs/search?q=';
+const API_URL = 'https://api.giphy.com/v1/gifs/search?q=';
 const API_KEY = '&api_key=SWOitu6kdcad3Sz75yZjMu8Y81ps02qH';
 const TRENDINGAPI_URL = 'https://api.giphy.com/v1/gifs/trending';
 const TRENDINGAPI_KEY = '?api_key=SWOitu6kdcad3Sz75yZjMu8Y81ps02qH';
