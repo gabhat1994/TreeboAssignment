@@ -7,7 +7,11 @@ import Search from "./Search";
 function App() {
   return (
     <Router>
-      <nav>
+      <nav style={{    height: "36px",
+    display: "flex",
+    justifyContent: "space-evenly",
+    fontSize: "26px",
+    background: "red"}}>
         <Link to="/"> Trending </Link>
         <Link to="/search"> Search </Link>
       </nav>
