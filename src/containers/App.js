@@ -6,7 +6,7 @@ import Search from "./Search";
 
 function App() {
   return (
-     <>
+     <div>
       <nav style={{    height: "36px",
     display: "flex",
     justifyContent: "space-evenly",
@@ -21,7 +21,7 @@ function App() {
         {/* <Route path="*" element={<ErrorPage />} /> */}
       </Routes>
      
-     </>
+     </div>
   );
 }
 
